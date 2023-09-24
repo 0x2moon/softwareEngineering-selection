@@ -1,0 +1,22 @@
+header {
+    left: 0;
+    right: 0;
+    top: 25px;
+    width: 100%;
+    position:fixed; 
+    background: rgba(45, 45, 45, 1);
+}
+nav{
+    padding: 4px;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    display: inline-block;
+    margin: 8px;
+
+}

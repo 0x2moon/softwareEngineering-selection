@@ -3,18 +3,20 @@ const app = express();
 const path = require('path');
 const router = express.Router();
 
-app.use(express.static(path.join(__dirname, 'pages')));
+app.set('views', path.join(__dirname, 'public'));
+app.use(express.static(__dirname + '/public'));
+app.set('view engine', 'ejs');
 
 router.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, 'pages', 'home.html'));
-});
+    res.render('pages/home',{pageTitle:'Home'});
+})
 
 router.get('/sobre', function(req, res){
-    res.sendFile(path.join(__dirname, 'pages', '/about.html'));
+    res.render('pages/about',{pageTitle:'sobre'});
 })
 
 router.get('/contato', function(req, res){
-    res.sendFile(path.join(__dirname, 'pages', '/contact.html'));
+    res.render('pages/contact',{pageTitle:'contact'});
 })
 
 app.use('/', router);
