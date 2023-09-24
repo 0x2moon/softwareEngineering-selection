@@ -8,6 +8,8 @@
 
     --color-second-dark-gray:#B4B4B4;
     --color-second-gray:#D9D9D9;
+  }
 
-    
+  body {
+    background: var(--color-second-dark-gray);
   }

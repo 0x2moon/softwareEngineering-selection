@@ -5,39 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seleção IFMS 2023</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
 </head>
 
 <body>
-    <div id="master">
-        <img  src="images/svg/bg.svg">
-        <%- include('../components/navbar.ejs'); -%>
-        <div id="group-start">
-            <div id="image-start"> <img src="images/svg/selection.svg" alt=""> </div>
-            <div id="button-start"><a>INSCREVA - SE!</a></div>
-        </div>
-            <div id="image-grid">
-                <div class="element"><img src="images/0.jpeg" alt=""></div>
-                <div class="element"><img src="images/12.jpeg" alt=""></div>
-                <div class="element"><img src="images/2-2.png" alt=""></div>
-                <div class="element"><img src="images/6.png" alt=""></div>
-                <div class="element"><img src="images/4.png" alt=""></div>
-                <div class="element"><img src="images/5.png" alt=""></div>
-                <div class="element"><img src="images/6.png" alt=""></div>
-                <div class="element"><img src="images/7.png" alt=""></div>
-                <div class="element"><img src="images/8.png" alt=""></div>
-                <div class="element"><img src="images/9.png" alt=""></div>
-                <div class="element"><img src="images/10.png" alt=""></div>
-                <div class="element"><img src="images/12.jpeg" alt=""></div>
-                <div class="element"><img src="images/5.png" alt=""></div>
-                <div class="element"><img src="images/6.png" alt=""></div>
-                <div class="element"><img src="images/7.png" alt=""></div>
-                <div class="element"><img src="images/8.png" alt=""></div>
-                <div class="element"><img src="images/9.png" alt=""></div>
-                <div class="element"><img src="images/10.png" alt=""></div>
-                <div class="element"><img src="images/12.jpeg" alt=""></div>
+    <div id="master" class="main">
+            <div id="image-grid" class="main">
+                <div class="main"><img class="element"  src="images/2-2.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/6.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/0.jpeg" alt=""></div>
+                <div class="main"><img class="element"  src="images/4.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/6.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/5.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/6.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/7.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/8.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/9.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/10.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/12.jpeg" alt=""></div>
+                <div class="main"><img class="element"  src="images/5.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/6.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/7.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/8.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/9.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/10.png" alt=""></div>
+                <div class="main"><img class="element"  src="images/12.jpeg" alt=""></div>
+                <div class="main"><img class="element"  src="images/4.png" alt=""></div>
             </div>
+            <div id="center-elements">
+                <div class="main" id="group-start">
+                    <div id="image-start" class="main"> <img class="istart" src="images/svg/selection.svg" alt=""> </div>
+                    <div id="button-start"  class="main"> <a href="/sobre">INSCREVA - SE!</a></div>
+                </div>
+                <div id="base-bg" class="main" >
+                    <img class="istart"  src="images/svg/bg.svg">
+                </div>
+            </div>
+            <%- include('../components/navbar.ejs'); -%>
             <%- include('../components/footer.ejs'); -%>
     </div>
 </body>

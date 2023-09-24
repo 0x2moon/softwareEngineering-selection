@@ -4,10 +4,10 @@ header {
     top: 25px;
     width: 100%;
     position:fixed; 
-    background: rgba(45, 45, 45, 1);
+    background: rgba(45, 45, 45, 0.39);
 }
 nav{
-    padding: 4px;
+    padding: 2px;
     display: flex;
     flex-direction:  column;
     justify-content: center;
@@ -17,6 +17,6 @@ nav{
 
 li {
     display: inline-block;
-    margin: 8px;
+    margin: 4px;
 
 }
