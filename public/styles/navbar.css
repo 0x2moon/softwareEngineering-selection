@@ -3,20 +3,38 @@ header {
     right: 0;
     top: 25px;
     width: 100%;
-    position:fixed; 
-    background: rgba(45, 45, 45, 0.39);
+    position: fixed;
+    margin: 0;
 }
-nav{
-    padding: 2px;
+
+header nav {
     display: flex;
-    flex-direction:  column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background: rgba(45, 45, 45, 0.39);
 }
 
-li {
-    display: inline-block;
-    margin: 4px;
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
 
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: var(--color-primary-white);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: all .5s;
+}
+
+header nav ul li a:hover {
+    background: var(--color-primary-pink);
+    color: var(--color-primary-dark-green);
 }

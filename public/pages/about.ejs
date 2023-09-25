@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seleção IFMS 2023</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/contato.css">
-</head>
-<body>
-    <%- include('../components/navbar.ejs'); -%>    
-    <div id="primary-container">
-        <img src="" alt="">
-        <h2>titulo</h2>
-        <p>tenti cubilia aliquam tristique volutpat faucibus porta mauris quis proin, tempus ut nostra etiam vel ornare ad aliquam dolor, nam nullam etiam facilisis curabitur nibh scelerisque a. cursus malesuada luctus pretium cras odio platea nulla cursus, nostra iaculis cubilia risus ut tempor aenean, luctus velit magna ipsum augue aliquam class. dapibus mollis per neque feugiat ornare sagittis facilisis fames vivamus pharetra at nostra semper vel quisque, augue phasellus eu vivamus litora auctor sollicitudin a eget morbi senectus volutpat nullam pharetra. ad fringilla massa augue nostra habitant phasellus taciti diam inceptos, suspendisse pretium ligula duis scelerisque augue sit aliquet eros, mauris donec ornare cursus ornare volutpat hendrerit tellus. </p>
-    </div>
 
-    <div id="second-container">
-        <img src="" alt="">
-        <h2>titulo 2</h2>
-        <p>Laoreet sem scelerisque mi tempus a hac urna phasellus tempor donec, urna pretium aptent elit tempus dolor dictumst est consectetur tempor, curabitur etiam felis cras arcu magna tellus proin duis. nostra malesuada lacinia erat litora sit convallis, scelerisque enim varius tellus eget phasellus nam, et cras auctor hendrerit vehicula. taciti neque posuere fringilla dapibus tincidunt sagittis at conubia, sit neque vivamus ullamcorper senectus aliquet et sociosqu elementum, purus curabitur vel dapibus cubilia mollis phasellus. ligula faucibus euismod dictumst risus euismod sed, cras dictum elementum purus per egestas quisque, molestie himenaeos pretium dictumst est. </p>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seleção IFMS 2023</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+</head>
+
+<body>
+    <div id="conteiner">
+        <div id="primary-container">
+            <img id="primary-img" class="img-about" src="images/8.png" alt="" />
+            <div class="base-container">
+                <h2>Período de inscrição 11/08 á 27/09</h2>
+                <p>
+                    O prazo segue aberto até 27 de setembro, pela Página do Candidato. Só serão aceitas inscrições
+                    feitas
+                    com o CPF e demais dados do próprio candidato. O valor da taxa é de R$ 20, gerada no próprio sistema
+                    da Central de Seleção.
+                    O pedido de isenção deve ser feito no ato da inscrição na Página do Candidato da Central de Seleção,
+                    selecionando o item 'Isento' no campo 'Forma de Inscrição' no sistema, devendo ser anexado o
+                    documento comprobatório. Para concorrer a uma vaga em um curso técnico integrado do IFMS é
+                    necessário ter concluído o ensino
+                    fundamental ou equivalente até a data da matrícula, prevista para janeiro do ano que vem, além de
+                    possuir o Cadastro de Pessoa Física (CPF) em seu nome.
+                </p>
+                <div id="button-start"><a href="https://selecao.ifms.edu.br/perfil/estudantes/estudante-exame-de-selecao-2024-tecnico-integrado-edital-062-2023">FAQ!</a></div>
+            </div>
+            <div id="second-container">
+                <img id="second-img" class="img-about" src="images/0.jpeg" alt="" />
+                <div class="base-container">
+                    <h2>Avaliação e cursos</h2>
+                    <p>
+                        A prova será composta por 30 questões de múltipla escolha, sendo 10 de língua portuguesa, 10 de
+                        matemática e 10 de conhecimentos gerais, conforme conteúdo programático disponibilizado no
+                        edital (Anexo X). A previsão é de que resultado final e a primeira chamada sejam publicados no dia 20 de dezembro,
+                        com matrículas em janeiro de 2024. Cursos - Com duração de três anos, nesse tipo de curso o estudante tem a oportunidade de cursar,
+                        ao mesmo tempo, o ensino médio regular e a formação profissional e técnica escolhida.
+                        Após se formar, o diploma possibilitará o ingresso na universidade ou no mundo do trabalho.
+                        Em caso de dúvidas, o contato com a Comissão Central do Exame de Seleção 2024 deve ser feito
+                        pelo e-mail
+                    </p>
+                    <div id="button-start"><a href="https://selecao.ifms.edu.br/perfil/estudantes/estudante-exame-de-selecao-2024-tecnico-integrado-edital-062-2023">FAÇA A INSCRIÇÃO!</a></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <%- include('../components/footer.ejs'); -%>    
+    <div id="base-bg" class="main" >
+        <img class="istart"  src="images/svg/bg.svg">
+    </div>''
+    <%- include('../components/navbar.ejs'); -%>
+    <%- include('../components/footer.ejs'); -%>
 </body>
+
 </html>

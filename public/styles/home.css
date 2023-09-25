@@ -100,3 +100,7 @@ img {
     object-fit: cover;
     backdrop-filter: blur(3px);
 }
+
+body {
+    background: var(--color-second-dark-gray);
+}
