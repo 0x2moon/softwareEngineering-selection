@@ -1,0 +1,64 @@
+.gmap {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 200px;
+}
+
+.mapouter {
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#base-bg {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 98vh;
+    z-index: -1;
+    opacity: 70%;
+}
+
+#container-contato {
+    position: fixed;
+    top:200px;
+}
+
+#container-contato p {
+    margin-left: 25px;
+    text-decoration: none;
+    width: 340px;
+    padding: 15px;
+    font-weight: 500;
+    background: var(--color-primary-green);
+}
+
+#container-contato  :hover {
+    background: var(--color-primary-pink);
+}
+
+#logo {
+    position: fixed;
+    top:60px;
+}
+
+body {
+    background: #E8EAED;
+}

@@ -25,15 +25,16 @@
 }
 
 #button-start {
+    top: 240px;
     width: 545px;
     height: 60px;
     background: var(--color-primary-yellow);
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
+
 
 #image-start {
     width: 840px;
@@ -78,9 +79,7 @@
 
 }
 
-#button-start {
-    top: 240px;
-}
+
 
 #button-start a {
     text-decoration: none;

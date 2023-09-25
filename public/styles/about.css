@@ -15,6 +15,40 @@
 
 }
 
+#button-start-insc {
+    width: 480px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary-pink);
+
+
+}
+
+#button-start :hover {
+
+    width: 480px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary-pink);
+    color: var(--color-primary-yellow);
+
+}
+
+#button-start-insc :hover {
+    width: 480px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary-yellow);
+    color: var(--color-primary-pink);
+}
+
+
 #button-start a {
     text-decoration: none;
     font-size: 18px;
@@ -24,6 +58,14 @@
     color: var(--color-primary-black);
 }
 
+#button-start-insc a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-primary-black);
+}
 
 .base-container {
     width: 480px;
@@ -35,7 +77,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
     margin: 0px 50px 50px 50px;
     padding: 0px 0px 50px 50px;
 }
@@ -58,7 +99,7 @@ p {
 
 #second-img {
     top: 50px;
-    left: -610px;
+    left: -530px;
 }
 
 #primary-img {
@@ -76,7 +117,9 @@ p {
     position: absolute;
     top: 0;
     width: 98vw;
-    height: 98vh;
+    height: 110vh;
+    z-index: -1;
+    opacity: 50%;
 }
 
 .istart {
