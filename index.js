@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -20,4 +21,4 @@ router.get('/contato', function(req, res){
 })
 
 app.use('/', router);
-app.listen(process.env.port || 5555);
+app.listen(process.env.PORT);
